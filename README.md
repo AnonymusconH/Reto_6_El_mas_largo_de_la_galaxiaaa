@@ -147,6 +147,39 @@ print("El interes compuesto determinado para los parametros que dicto fue: " +st
 
 ## Punto 6
 
+```
+
+def no_contagiados(c:int,d:int)->int:
+    contagios= c*(2*d)
+
+if __name__ == "__main__":
+
+    c=int(input("Numero de contagios: "))
+    d=int(input("Dias transcurridos: "))
+
+contagios_total= no_contagiados(c,d)
+
+print("El numero de contagiados pasado dichos dias es: " + str(no_contagiados))
+
+```
+
+## Punto 9
+
+Un pip en Python es un sistema de gestión de paquetes utilizado para instalar y administrar paquetes de software escritos en Python. Funcionan de tal modo que se utiliza para instalar y administrar las bibliotecas externas en Python. Con Pip, es fácil instalar y actualizar paquetes. Es una herramienta infalible para cada progamador
+
+Referencia: https://apuntes.de/python/uso-de-pip-y-gestion-de-paquetes-en-python-administracion-de-dependencias/#gsc.tab=0
+
+
+## Punto 10 
+
+|  Nombre              |Tipo de modulo                        |Función                         |
+|----------------|-------------------------------|-----------------------------|
+|Matploblib|`pip matploblib`            |Crea gráficos para visualizar            |
+|Numpy         |`pip Numpy`            |Da una biblioteca de número agilizando la progamación            |
+|Request          |`pip request`|Permite usar terminales de HTTP para Python
+|Tensorflow|`pip Tensorflow`            |Otorga un paquete que emplea machine Learning aplicado a progamar            |
+| Scikit - learn        |pip Scikit            |Machine learning orientado y facilitando el acceso a acciones como clasificación de datos, estipulación de parámetros, etc. 
+
 
 
 
